@@ -1,0 +1,51 @@
+<!-- In this page I want an image carousel to display the fan art -->
+<!-- All in basic HTML-->
+<!-- I want to add a link to the home page -->
+<!-- I want to add a link to the characters page -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Laboratorio 3</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    </head>
+    <header>
+        <h1>Hunter x Hunter</h1>
+        <p>Fan Page</p>
+        <nav>
+            <ul>
+                <li><a href="../pagina_DYLAN-v1.html">Home</a></li>
+                <li><a href="characters.html">Personajes</a></li>
+            </ul>
+        </nav>
+    </header>
+    <body>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+        <h1>Arte de HxH</h1>
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://i.pinimg.com/564x/04/b6/4b/04b64b944e9bf8300821fdb2a8d1dbd8.jpg" class="d-block w-100" alt="FeitanShizuku">
+              </div>
+              <div class="carousel-item">
+                <img src="https://i.pinimg.com/564x/dd/e4/0e/dde40ee72a555c51a851060f94cc0ab2.jpg" class="d-block w-100" alt="Killua">
+              </div>
+              <div class="carousel-item">
+                <img src="https://i.pinimg.com/564x/a8/a5/12/a8a5128411dbc22a45cc00cf8bf4fe79.jpg" class="d-block w-100" alt="Neferpitou">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </body>
+</html>
